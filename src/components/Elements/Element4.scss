@@ -1,0 +1,62 @@
+.element4-container {
+  padding: 50px;
+}
+
+.element4-heading {
+  font-size: 1.875rem; /* 30px */
+  text-align: left;
+  margin-top: 2.25rem; /* 90px */
+  font-family: 'Gilroy-Bold', sans-serif;
+  
+}
+
+.element4-paragraph {
+  margin-top: 1.25rem; /* 20px */
+  font-size: 0.9375rem; /* 15px */
+  margin-bottom: 1.25rem; /* 20px */
+  font-family: 'Gilroy-Regular', sans-serif;
+  margin-left: 0px; /* Move paragraph to the right */
+}
+
+.img-fluidh {
+  max-width: 80%; /* Ensure image resizes according to container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.demo-link {
+  text-decoration: none;
+  color: #473BF0;
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.demo-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px; /* Adjust margin to add space between text and icon */
+}
+
+@media (max-width: 768px) {
+  .element4-heading {
+    margin-top: 30px;
+    font-size: 1.5rem; /* 24px */
+    padding-right: 0;
+  }
+
+  .element4-paragraph {
+    font-size: 0.875rem; /* 14px */
+    padding-right: 0;
+    max-width: 50%;
+    margin-left: 0;
+  }
+
+  .demo-link {
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .img-fluidh {
+    max-width: 80%; /* Ensure image resizes to fit container */
+    height: auto; /* Maintain aspect ratio */
+  }
+}

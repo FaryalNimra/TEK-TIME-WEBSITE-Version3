@@ -1,0 +1,42 @@
+.element7-container {
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+  transition: border-color 0.3s ease;
+}
+
+.element7-paragraph {
+  font-size: 16px;
+  color: #F64B4B;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.element7-heading12 {
+  font-size: 23px;
+  margin-bottom: 40px;
+  padding-left: 50px;
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .col-md-4 {
+    width: 100%;
+    padding: 10px;
+    text-align: left; /* Ensure left alignment */
+  }
+
+  .element7-paragraph,
+  .element7-heading12 {
+    text-align: left; /* Ensure left alignment */
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    padding-right: 10px; /* Adjust padding for smaller screens */
+  }
+}

@@ -1,0 +1,72 @@
+.element9-container {
+  margin: 0 auto;
+  text-align: center; /* Center align by default */
+  font-family: 'Gilroy-Bold', sans-serif;
+  margin-bottom: 150px;
+}
+
+.element9-heading {
+  margin-top: 50px;
+  font-size: 22px;
+  margin-bottom: 5px;
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.element9-paragraph1 {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 50px;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.element9-subheading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.element9-subparagraph {
+  font-size: 13px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  text-align: center; /* Center align by default */
+  margin: 0 auto; /* Center the container */
+  width: 48%; /* Set the width to make sure the text wraps into two lines */
+  white-space: normal; /* Ensure text wraps */
+}
+
+.img-fluidn1 {
+  margin-top: 30px;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluidn11 {
+  margin-top: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .element9-container {
+    text-align: left; /* Align text to the left on smaller screens */
+    padding-left: 10px; /* Add padding for better spacing */
+    padding-right: 10px; /* Add padding for better spacing */
+  }
+
+  .element9-heading,
+  .element9-paragraph1,
+  .element9-subheading,
+  .element9-subparagraph {
+    text-align: left; /* Align all text elements to the left */
+    padding-left: 10px; /* Add padding for better spacing */
+    padding-right: 10px; /* Add padding for better spacing */
+    width: 100%; 
+    margin-top: 5px;/* Full width on smaller screens */
+  }
+
+  .element9-subparagraph {
+    width: 100%; /* Ensure full width for paragraphs on smaller screens */
+    padding-left: 5px; /* Adjust padding for better spacing */
+    padding-right: 10px;/* Adjust padding for better spacing */
+  }
+}

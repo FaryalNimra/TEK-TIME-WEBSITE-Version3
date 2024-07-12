@@ -1,0 +1,72 @@
+.element-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  text-align: center;
+}
+
+.element-heading {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 35px; 
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.element-paragraph {
+  margin-bottom: 20px;
+  font-family: 'Gilroy-regular', sans-serif;
+  font-size: 15px;
+  color: '#161C2D';
+}
+
+.element-button {
+  font-family: 'Gilroy-Bold', sans-serif;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #0043FF;
+  color: white;
+  border: none;
+  border-radius: 10px; /* Increase the value to make the corners more rounded */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.element-button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Media query for tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .element-heading {
+    font-size: 28px;
+    margin-top: 80px;
+  }
+
+  .element-paragraph {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .element-button {
+    padding: 8px 16px;
+  }
+}
+
+/* Media query for mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .element-heading {
+    font-size: 24px;
+    margin-top: 60px;
+  }
+
+  .element-paragraph {
+    font-size: 12px;
+  }
+
+  .element-button {
+    padding: 6px 12px;
+  }
+}

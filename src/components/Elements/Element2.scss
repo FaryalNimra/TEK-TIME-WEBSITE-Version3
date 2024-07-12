@@ -1,0 +1,73 @@
+.element2-container {
+  margin-top: 50px;
+  padding-left: 50px; 
+}
+
+.text-left {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.element2-heading {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  padding-left: 120px;
+}
+.element2-paragraph{
+  margin-top: 35px;
+  font-family: 'Gilroy-Bold', sans-serif; 
+  font-size: 14px;
+  max-width: 80%;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+
+.img-fluid.img-padding {
+  max-width: 100%;
+  height: auto;
+  padding-left: 60px;
+  margin-top: 50px;
+}
+
+.img-fluid1 {
+  width: 70%;
+  height: auto;
+}
+
+.img-fluid1.img-padding {
+  max-width: 60%;
+  height: auto;
+  margin-top: 90px;
+}
+
+.img-fluid2 {
+  width: 40%;
+  height: auto;
+}
+
+.img-fluid2.img-padding {
+  max-width: 50%;
+  height: auto;
+  margin-top: 90px;
+}
+
+.row {
+  margin: 0;
+}
+
+.col-md-6 {
+  padding: 0; 
+  margin-bottom: 10px; 
+}
+
+.d-flex {
+  justify-content: start !important;
+}
+
+.img-padding {
+  padding-right:2px; /* Adjust space between the first and second images */
+}

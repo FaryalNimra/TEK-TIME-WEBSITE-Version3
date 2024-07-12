@@ -1,0 +1,68 @@
+.element5-container {
+  padding: 50px;
+}
+
+.element5-heading {
+  margin-top: 45px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-family: 'Gilroy-Bold', sans-serif;
+  text-align: left;
+  padding-left: 18px;
+}
+
+.element5-paragraph {
+  margin-top: 20px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  max-width: 90%;
+  padding-left: 0px;
+}
+
+.img-fluidh {
+  max-width: 100%; /* Ensure image resizes to fit container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.demo-link1 {
+  text-decoration: none;
+  color: #473BF0;
+  font-family: 'Gilroy-Bold', sans-serif;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 20px; /* Adjust left padding */
+}
+
+.demo-icon1 {
+  width: 20px; /* Adjust icon size */
+  height: 20px;
+  margin-left: 5px; /* Add space between text and icon */
+}
+
+@media (max-width: 768px) {
+  .element5-heading {
+    font-size: 1.5rem; /* 24px */
+    text-align: left; /* Align heading to the left */
+    padding-left: 20px; /* Maintain left padding */
+    margin-top: 30px; /* Adjust top margin */
+  }
+
+  .element5-paragraph {
+    font-size: 0.875rem; /* 14px */
+    max-width: 50%; /* Ensure paragraph width is full */
+    margin-top: 15px; /* Adjust top margin */
+    padding-left: 20px; /* Maintain left padding */
+  }
+
+  .demo-link1 {
+    margin-top: 15px; /* Adjust top margin */
+    text-align: left; /* Align text to the left */
+    padding-left: 20px; /* Maintain left padding */
+  }
+
+  .img-fluidh {
+    max-width: 100%; /* Ensure image resizes to fit container */
+    height: auto; /* Maintain aspect ratio */
+  }
+}

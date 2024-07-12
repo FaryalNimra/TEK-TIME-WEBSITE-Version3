@@ -1,0 +1,58 @@
+.element8-container {
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Gilroy-Bold', sans-serif;
+  margin-top: 50px;
+}
+
+.element8-heading {
+  font-size: 22px;
+  margin-bottom: 50px;
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.element8-content {
+  margin-bottom: 30px;
+}
+
+.element8-subheading {
+  font-size: 20px;
+  margin-left: 15px; /* Adjust space between icon and heading */
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.element8-subparagraph {
+  font-size: 12px;
+  font-family: 'Gilroy-Regular', sans-serif;
+  text-align: left; 
+  margin-bottom: 50px;
+  padding-left: 50px;
+  max-width: 100%;
+}
+
+.img-fluidn {
+  max-width: 50px; /* Adjust the size of the icon */
+  height: auto;
+}
+@media (max-width: 768px) {
+  .element8-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+
+  .element8-subheading,
+  .element8-subparagraph {
+    text-align: left; 
+    margin-left: 0; 
+    padding-left: 10px; /* Adjust padding for smaller screens */
+    padding-right: 10px;
+    max-width: 50%; /* Adjust padding for smaller screens */
+  }
+
+  .element8-heading {
+    text-align: left; /* Ensure left alignment */
+    padding-left: 0px; /* Adjust padding for smaller screens */
+    padding-right: 10px; /* Adjust padding for smaller screens */
+  }
+}

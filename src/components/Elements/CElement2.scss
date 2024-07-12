@@ -1,0 +1,80 @@
+.celement2-container {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 900px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 100px;
+
+  .celement2-heading {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .form-label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px; /* Adjusted margin */
+  }
+
+  .form-control {
+    font-size: 14px; /* Increased font size for better readability */
+    height: 38px;
+    width: 300px; /* Adjusted input height */
+  }
+
+  textarea.form-control {
+    height: 150px;
+    width: 680px; /* Increased height for message textarea */
+  }
+
+  .btn-primary {
+    background-color: #0043FF;
+    color: white;
+    border-color: white;
+    font-size: 14px; /* Increased font size */
+    width: 30%;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+
+
+  .btn-primary:hover {
+    background-color: #7fa4fb; /* Darker shade of blue on hover */
+  }
+
+  @media (max-width: 768px) {
+    .celement2-heading {
+      font-size: 20px;
+    }
+
+    .form-label {
+      font-size: 14px;
+    }
+
+    .form-control {
+      font-size: 12px;
+      height: 34px; /* Adjusted height for smaller screens */
+    }
+
+    .btn-primary {
+      font-size: 12px;
+    }
+    @media (max-width: 768px) {
+      .btn-primary {
+        width: auto; /* Set button width to auto for left alignment */
+      }
+      textarea.form-control {
+        height: 150px;
+        width: 400px; /* Increased height for message textarea */
+      }
+    }
+  }
+}
